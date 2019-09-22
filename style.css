@@ -32,9 +32,10 @@
 }
 
 .list__item>a {
+
     font-family: 'Poppins', sans-serif;
     height: 7.5px;
-    font-size: 7px;
+    font-size: 9px;
     font-weight: 500;
     line-height: 1.93;
     color: #272727;
@@ -43,11 +44,11 @@
 }
 
 .head__main {
-    background: url("../alex/img/bacgroundFirst.jpg");
+    background-image: url("./img/bacgroundFirst.jpg");
     background-position: center center;
 }
 
-.head__main {
+.head__title {
     padding-top: 125px;
     font-family: 'Libre Baskerville', serif;
     font-size: 30px;
@@ -55,11 +56,11 @@
     text-align: center;
     color: #ffffff;
     font-weight: 400;
-     padding-bottom:  40px;
+    padding-bottom: 40px;
 }
 
 .button {
-       border-radius: 12.5px;
+    border-radius: 12.5px;
     margin: 0 auto;
     width: 250px;
     height: 75px;
@@ -70,26 +71,48 @@
 }
 
 .button>a {
+    text-align: center;
     text-transform: uppercase;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    font-size:20px;
+    font-size: 20px;
     font-weight: 600;
     line-height: 5;
     color: #ffffff;
 }
+
 /* logo styles */
-.logos{
+.logos {
     padding-top: 90px;
     display: flex;
-    align-items: baseline;
-    justify-content: space-between;
+    justify-content: center;
 }
-.logos__item{
+
+.logos__item {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.img{
-    width:50px;
+
+.img {
+    width: 50px;
     height: 50px;
+}
+
+.logos__item-text {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 4.44;
+    color: #38c695;
+}
+
+.logos__item-text-g {
+    color: #b27cf5;
+}
+
+.logos__item-text-c {
+    color: #feb960;
 }
