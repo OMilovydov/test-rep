@@ -1,0 +1,95 @@
+* {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    margin-top: 20px;
+    height: 45px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    margin-left: 35px;
+    font-family: "Wisdom-Script"italic;
+    font-size: 35px;
+    line-height: 0.77;
+    color: #616161;
+}
+
+.logo>span {
+    color: red;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+}
+
+.list__item>a {
+    font-family: 'Poppins', sans-serif;
+    height: 7.5px;
+    font-size: 7px;
+    font-weight: 500;
+    line-height: 1.93;
+    color: #272727;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.head__main {
+    background: url("../alex/img/bacgroundFirst.jpg");
+    background-position: center center;
+}
+
+.head__main {
+    padding-top: 125px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    line-height: 1.42;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 400;
+     padding-bottom:  40px;
+}
+
+.button {
+       border-radius: 12.5px;
+    margin: 0 auto;
+    width: 250px;
+    height: 75px;
+    background-color: #fc5f45;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button>a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size:20px;
+    font-weight: 600;
+    line-height: 5;
+    color: #ffffff;
+}
+/* logo styles */
+.logos{
+    padding-top: 90px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.logos__item{
+    display: flex;
+    flex-direction: column;
+}
+.img{
+    width:50px;
+    height: 50px;
+}
